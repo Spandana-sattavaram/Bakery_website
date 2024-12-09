@@ -1,0 +1,35 @@
+.admin-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .admin-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-page table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .admin-page table, .admin-page th, .admin-page td {
+    border: 1px solid #ddd;
+  }
+  
+  .admin-page th, .admin-page td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .admin-page th {
+    background-color: #f4f4f4;
+  }
+  
+  .admin-page td {
+    background-color: #fff;
+  }
+  
+  .admin-page tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

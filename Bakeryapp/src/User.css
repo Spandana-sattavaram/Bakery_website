@@ -1,0 +1,124 @@
+/* Reset Styles */
+body{
+  margin: 0;
+}
+#background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200809/pngtree-chalk-drawing-bakery-background-image_391051.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .container  {
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.695);
+    border-radius: 12px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  
+  /* Account section styling */
+  .account {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+  
+  .account__form-block {
+    margin-bottom: 1rem;
+    
+  }
+  
+  label {
+   text-align: left;
+    display: block;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  input {
+   
+    width: 90%;
+    padding: 0.75rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 1rem;
+    
+  }
+  
+  .links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .cancel-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .cancel-button:hover {
+    background-color: #bbb;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .form-actions button {
+    flex: 1;
+  }
+  
+

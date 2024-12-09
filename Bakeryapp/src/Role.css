@@ -1,0 +1,131 @@
+
+#background{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200809/pngtree-chalk-drawing-bakery-background-image_391051.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.role-container {
+    
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    box-shadow: 2px 4px 50px rgba(0, 0, 0, 0.338);
+    border-radius: 12px;
+    font-family: "Arial", sans-serif;
+  }
+ .role-form{
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+ } 
+  /* Header and subtitle */
+  h1 {
+    /* padding: 20px; */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    /*  margin-top: 0; */
+  }
+  #rolehead{
+    
+    background: #181717;
+    color: #f8f9fa;
+    font-size: 50px;
+
+}
+  
+  .subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form group */
+  .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    
+  }
+  
+  label {
+    text-align: left;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Dropdown styling */
+  select {
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ffffff, #f9f9f9);
+    appearance: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23555"><path d="M5.5 7l4.5 4 4.5-4H5.5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+  }
+  
+  select:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(136, 136, 136, 0.4);
+  }
+  
+  select:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #f8f8f8, #f0f0f0);
+  }
+  
+  /* Submit button */
+  .role-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 16px;
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .role-button:hover {
+    background: #252527;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 1.5rem;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .role-container {
+      padding: 1.5rem;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+    }
+  }

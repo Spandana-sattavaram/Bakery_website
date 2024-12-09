@@ -1,0 +1,118 @@
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#logo{
+  display: flex;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+#del{
+  display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;   
+    cursor: pointer; 
+    font-size: 20px;
+}
+#del .text:hover{
+  text-decoration:underline;
+}
+#account{
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 20px;
+}
+#top{
+  display: flex;
+}
+#Head{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 45px;
+}
+#Buttons{
+  padding-top: 10px;
+}
+#Buttons a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#btn{
+    display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;  
+    border-radius: 20px;        
+    border: 1px solid black;             
+    cursor: pointer;   
+}
+
+#bt{
+  display: flex;            
+  align-items: center;       
+  background-color: #000000; 
+  color: rgb(255, 255, 255);              
+  padding: 9px 20px;        
+  font-size: 16px;  
+  border-radius: 20px;        
+  border: 1px solid black;             
+  cursor: pointer;   
+}
+
+.icon {
+    margin-right: 8px;         
+    display: flex;            
+    align-items: center;       
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;       
+  }
+  #btn:hover{
+    background-color: black;
+    color: white;
+  }
+/* Styles for the dropdown menu */
+.dropdown {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown button:hover {
+  background-color: #f0f0f0;
+}

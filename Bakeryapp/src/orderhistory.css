@@ -1,0 +1,14 @@
+.MuiTableContainer-root {
+    background-color: #fffaf0; 
+    border-radius: 8px;
+  }
+  
+  .MuiTableCell-root {
+    font-family: Arial, sans-serif;
+  }
+  
+#tablehead {
+    background-color:gray; 
+    color: white;
+  }
+  
